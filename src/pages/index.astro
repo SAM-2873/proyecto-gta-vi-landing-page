@@ -1,0 +1,133 @@
+---
+import "../assets/css/normalize.css";
+import '../assets/css/style.css';
+
+import iback1 from '../images/backlogo.webp';
+import iback2 from '../images/back.webp';
+import LogoVIIcon from '../images/menubutton.png';
+import LogoPlayIcon from '../images/logoplay.png';
+import LogoCuttedIcon from '../images/cuttedlogo.png';
+import keepScrolling from '../images/arrow1.png';
+import sec1img1 from '../images/logo3.webp';
+import PS5XboxLogo from '../images/ps5xboxlogo.png';
+import sec3back1 from '../images/sec3back1.webp';
+import cimg1 from '../images/sec4img1.webp';
+import cimg2 from '../images/sec4img2.webp';
+import cimg3 from '../images/sec4img3.webp';
+import sec5back1 from '../images/sec5back1.webp';
+import sec6img1 from '../images/sec6img1.jpg';
+import sec6img2 from '../images/sec6img2.jpg';
+import sec6img3 from '../images/sec6img3.jpg';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading GTA by SamValdez</title>
+</head>
+<body>
+    
+    <header class="cabeza">
+        <picture id="escalado">
+            <img id="back1" src={iback1.src}>
+            <img id="back2" src={iback2.src}>
+        </picture>
+
+        <div class="caja-logoplay">
+            <button class="boton-logoplay">
+                <img id="logoPlay" src={LogoPlayIcon.src}>
+            </button>
+        </div>
+    </header>
+
+    <div class="caja-arrow">
+        <img id="arrow1" src={keepScrolling.src}>
+    </div>
+
+    <footer id="footer" class="footer-logos">
+        <img id="Logocutted" src={LogoCuttedIcon.src}>
+        <span>VER EL TRÁILER 2</span>
+    </footer>
+
+    <div class="logo-superior">
+        <img id="logoVI" src={LogoVIIcon.src}>
+    </div>
+
+
+    <main>
+        <section class="section1">
+            <img id="sec1img1" src={sec1img1.src}>
+            <h2>Disponible</h2>
+            <h2>el 19 de noviembre</h2>
+            <h2>de 2026</h2>
+            <img id="ps5xboxlogo" src={PS5XboxLogo.src}>
+        </section>
+
+        <section class="section2">
+            <p id="sec2text1">Vice City, EE. UU.</p>
+            <p class="sec2text2">
+                Jason y Lucia siempre han sabido que las cartas estaban en su contra, pero cuando un golpe que parecía fácil sale mal, se ven atrapados en el lado más oscuro del lugar más soleado de América, en medio de una conspiración criminal que se extiende por todo el estado de Leonida, y obligados a depender más que nunca el uno del otro si quieren salir con vida.
+            </p>
+        </section>
+
+
+        <section class="section3-back1">
+            <img id="sec3back1" src={sec3back1.src}>
+        </section>
+
+        <section class="section4">
+            <div id="sec4div">
+                <div id="d-sec4text1">
+                    <h2>JASON DUVAL</h2>
+                    <h3>
+                    Jason quiere una vida fácil, pero las cosas no hacen más que complicarse.
+                    </h3>
+                    <p>
+                        Jason se crio rodeado de estafadores y delincuentes. Tras un tiempo en el ejército intentando dejar atrás su adolescencia problemática, acabó en los cayos haciendo lo que mejor sabe: trabajar para narcotraficantes de la zona. Quizás haya llegado el momento de probar algo nuevo.
+                    </p>
+                </div>
+                <div id="d-sec4img1">
+                    <img src={cimg1.src}>
+                </div>
+                <div id="d-sec4img2">
+                    <img src={cimg2.src}>
+                </div>
+                <div id="d-sec4img3">
+                    <img src={cimg3.src}>
+                </div>
+            </div>
+        </section>
+        <section class="section5-back1">
+            <p>
+                &lt;&lt;PASE LO QUE PASE, PUEDES<br> CONTAR CONMIGO.&gt;&gt;
+            </p>
+            <img id="sec5back1" src={sec5back1.src}>
+        </section>
+        <section class="section6">
+            <div class="sec6div">
+                <div id="d-sec6text1">
+                    <h2>Otro día en el<br> paraíso, ¿eh?</h2>
+                </div>
+                <div id="d-sec6text2">
+                    <h3>
+                        Conocer a Lucia podría ser lo mejor o lo peor que le haya pasado. Jason tiene claro cómo le gustaría que acabara la historia, pero ahora mismo es difícil saberlo.
+                    </h3>
+                </div>
+                <div id="d-sec6img1">
+                    <img src={sec6img1.src}>
+                </div>
+                <div id="d-sec6img2">
+                    <img src={sec6img2.src}>
+                </div>
+                <div id="d-sec6img3">
+                    <img src={sec6img3.src}>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../assets/javascript/script.js"></script>
+</body>
+</html>
