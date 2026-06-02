@@ -7,5 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  site: "https://SAM-2873.github.io",
+  base: "/proyecto-gta-vi-landing-page",
 });
